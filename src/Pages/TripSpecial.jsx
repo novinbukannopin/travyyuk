@@ -51,7 +51,7 @@ function TripSpecial() {
             address={"NGL, Indonesia"}
           />
           <ItemsTrip
-            category={"Beach"}
+            category={"Beachs"}
             img={"src/assets/item5.png"}
             title={"Ascent Tower"}
             address={"Bali, Indonesia"}
