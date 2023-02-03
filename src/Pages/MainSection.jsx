@@ -2,6 +2,7 @@ import React from "react";
 import Subtitle from "../Parts/Subtitle";
 import Title from "../Parts/Title";
 import Button from "../Parts/Button";
+import UserFeedBack from "../Components/UserFeedBack";
 
 function MainSection() {
   return (
@@ -12,7 +13,6 @@ function MainSection() {
         </div>
         <div className="mt-12 w-6/12 justify-center px-10">
           <Subtitle>What They Say</Subtitle>
-
           <Title>
             What Our Customer <br />
             Say About Us{" "}
@@ -23,24 +23,11 @@ function MainSection() {
             ever since the 1500s
           </div>
           <div className="mb-10 flex w-full">
-            <div className="w-2/12">
-              <img src="src\assets\user.png" width={48} alt="" />
-            </div>
-            <div className="-ml-4 w-10/12 justify-start">
-              <div className="flex items-center space-x-2">
-                <div className="font-poppins text-lg font-semibold">
-                  Novin Ardian Y
-                </div>
-                <div> • </div>
-                <div
-                  href=""
-                  className="font-poppins text-xs font-light tracking-widest text-gray-600"
-                >
-                  Backpacker
-                </div>
-              </div>
-              <img src="src\assets\ratings.png" className="h-[18px]" alt="" />
-            </div>
+            <UserFeedBack
+              img={"src/assets/user.png"}
+              user={"Novin Ardian Yulianto"}
+              role={"Pramuka Nyell"}
+            />
           </div>
           <div className="space-x-6">
             <Button names={"All Stories"} variant={"primary"} />

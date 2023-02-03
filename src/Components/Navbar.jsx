@@ -10,7 +10,7 @@ function Navbar() {
       <div className="w-3/12">
         <LogoBrand />
       </div>
-      <div className="w-6/12 ">
+      <div className="w-6/12  ">
         <Nav />
       </div>
       <div className="w-3/12 space-x-2 text-right">
