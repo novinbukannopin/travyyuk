@@ -1,4 +1,5 @@
 import Hero from "./Pages/Hero";
+import MainSection from "./Pages/MainSection";
 import SearchSec from "./Pages/SearchSec";
 import TripSpecial from "./Pages/TripSpecial";
 
@@ -8,6 +9,7 @@ export default function App() {
       <Hero />
       <SearchSec />
       <TripSpecial />
+      <MainSection />
     </>
   );
 }
