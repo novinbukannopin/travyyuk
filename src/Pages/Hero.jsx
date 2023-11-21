@@ -7,7 +7,7 @@ function Hero() {
       <div className="container mx-auto px-12">
         <Navbar />
         <div className="text-center">
-          <p className="mt-24 mb-4 font-poppins text-2xl font-semibold text-gray-700">
+          <p className="mt-24 mb-4 font-poppins text-2xl font-semibold text-white ">
             life is too short for a wide and beautiful world
           </p>
           <div className="mx-auto w-10/12">

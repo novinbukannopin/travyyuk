@@ -7,7 +7,7 @@ import NavItems from "../Parts/NavItems";
 function Navbar() {
   return (
     <div className="flex items-center py-10">
-      <div className="w-3/12">
+      <div className="w-3/12 ">
         <LogoBrand />
       </div>
       <div className="w-6/12  ">
